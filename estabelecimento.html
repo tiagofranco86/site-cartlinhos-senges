@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eduardo Rodrigues</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Enriqueta" rel="stylesheet">
+	<script type="text/javascript">
+		
+		function menuToggle(){
+			var menu = document.getElementsByClassName("menu")[0];
+			if(menu.style.display == 'block') {
+				menu.style.display = 'none';
+			} else {
+				menu.style.display = 'block';
+			}
+		}
+	</script>
+</head>
+<body id="body-estabelecimento">
+	<header class="header">
+		<div class="container">
+			<i class="fa fa-bars icons-bars" aria-hidden="true" onclick="menuToggle();"></i>
+			<div class="menuint">
+				<input type="text" name="search" placeholder="Procurar...">
+				<i class="fa fa-search icons" aria-hidden="true"></i>
+				<nav class="menu">
+					<ul>
+						<li><a href="#" class="active">Home</a></li>
+						<li><a href="#">Cardápios</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div id="pg-estabelecimento">
+		<section class="banner">
+			<div class="container">
+				<img src="https://picsum.photos/400/400/?random">
+			</div>
+		</section>
+
+		<section class="conteudo-estabelecimento">
+			<div class="container">
+				<section class="estabelecimento-cardapios">
+					<h1>Panne Pizzaria</h1>
+					<p>Chegaram as pizzas mais gostosas da região</p>
+
+					<div class="widget-cardapios">
+						<h3>Pizzas</h3>
+						<hr>
+
+						<div class="itens-cardapios-container">
+							<article class="itens-cardapios">
+								<div class="itens-cardapios-header">Alho</div>
+								<div class="itens-cardapios-ingredientes">Massa, molho, alho, mussarela e orégano</div>
+							</article>
+							<article class="itens-cardapios">
+								<div class="itens-cardapios-header">4 Queijos</div>
+								<div class="itens-cardapios-ingredientes">Massa, molho, alho, mussarela e orégano</div>
+							</article>
+							<article class="itens-cardapios">
+								<div class="itens-cardapios-header">Calabresa</div>
+								<div class="itens-cardapios-ingredientes">Massa, molho, alho, mussarela e orégano</div>
+							</article>
+							<article class="itens-cardapios">
+								<div class="itens-cardapios-header">Alho</div>
+								<div class="itens-cardapios-ingredientes">Massa, molho, alho, mussarela e orégano</div>
+							</article>
+							<article class="itens-cardapios">
+								<div class="itens-cardapios-header">4 Queijos</div>
+								<div class="itens-cardapios-ingredientes">Massa, molho, alho, mussarela e orégano</div>
+							</article>
+							<article class="itens-cardapios">
+								<div class="itens-cardapios-header">Calabresa</div>
+								<div class="itens-cardapios-ingredientes">Massa, molho, alho, mussarela e orégano</div>
+							</article>
+						</div>
+					</div>
+				</section>
+				<aside class="atendimento">
+					<h2>Atendimento:</h2>
+					<div class="border">
+						<div></div>
+					</div>
+					<div class="widget-atendimento telefone-atendimento">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<div>
+							<em>43</em> 3567 1233 <br>
+							<em>43</em> 3567 1233
+						</div>
+					</div>
+					<div class="widget-atendimento">
+						<i class="fa fa-map-marker" aria-hidden="true"></i>
+						<div class="estabelecimento-endereco">
+							R. José Domingos Branco, 06 Centro - Sengés /PR
+						</div>
+					</div>
+					<div class="widget-atendimento">
+						<i class="fa fa-clock-o" aria-hidden="true"></i>
+						<div>
+							Almoço/Seg à Dom - 11h - 14h Jantar/Ter à Dom - 18h - 0h
+						</div>
+					</div>
+					<div class="widget-atendimento">
+						<i class="fa fa-credit-card" aria-hidden="true"></i>
+						<div>
+							Aceita cartão
+						</div>
+					</div>
+					<div class="widget-atendimento">
+						<i class="fa fa-motorcycle" aria-hidden="true"></i>
+						<div>
+							Delivery
+						</div>
+					</div>
+				</aside>
+			</div>
+		</section>
+		<div style="clear: both;"></div>
+	</div>
+	<section class="formulario-orientacoes">
+		<div class="container">
+			<div class="formulario">
+				<form>
+					<fieldset>CONTATO</fieldset>
+					<input type="text" name="nome" placeholder="Nome"/>
+					<input type="text" name="email" placeholder="Email"/>
+					<input type="text" name="assunto" placeholder="Assunto"/>
+					<textarea>Mensagem
+					</textarea>
+					<input type="submit" name="Enviar"/>
+				</form>
+			</div>
+			<div class="orientacoes">
+				<h4>Preencha o formulário ao lado para obter mais informações de como se tornar um parceiro do Guia Gastronômico.</h4>
+
+				<div>(43) 9 9913 0474</div>
+				<div class="contato-email"><small>contato@guiagastronomico.com.br</small></div>
+				<div class="siga-gnt">
+					<p>SIGA A GENTE</p>
+					<ul class="redes-sociais">
+						<li><a href="#"><img src=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><img src=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#"><img src=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="#"><img src=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div style="clear: both;"></div>
+	<footer>
+		<small>©2017 por ER Propraganda.</small>
+	</footer>
+</body>
+
+</html>	
